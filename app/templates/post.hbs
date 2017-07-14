@@ -1,3 +1,13 @@
+<div class="container">
 {{model.question}}
 {{post-details post=model destroyPost= "destroyPost"}}
 {{update-post post=model update="update"}}
+<h3>Answers</h3>
+
+{{#each model.answers as |answer|}}
+<div class="answers">
+{{answer-tile answer=answer}}
+</div>
+{{/each}}
+{{new-answer saveAnswer="saveAnswer" post=model}}
+</div>
