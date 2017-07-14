@@ -1,0 +1,13 @@
+{"posts":[{
+
+    "question": "This is the first question",
+    "author":"elvis",
+    "notes":"first ever"
+
+  },{
+    "question": "What is the purpose of life",
+    "author":"anonymus",
+    "notes":"life"
+
+  }]
+}
