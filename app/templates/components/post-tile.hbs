@@ -1,4 +1,5 @@
 <li>{{post.question}}</li>
   <p>Additional notes: {{post.notes}} </p>
   <p>by {{post.author}}</p>
+  {{update-post post=post update="update"}}
   <button {{action 'delete' post}}>Delete this question</button>
