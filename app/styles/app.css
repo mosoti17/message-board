@@ -16,10 +16,13 @@
 
 }
 .quiz{
-  max-height: 20%;
+  max-height: 49px;
   padding-right: 1%;
   padding-left: 1%;
   padding-top: 1%;
+
+  overflow: hidden;
+
 
 }
 h1{
