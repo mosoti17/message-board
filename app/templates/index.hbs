@@ -1,10 +1,15 @@
 <div class="container">
-  <div class="title">
+  <div class=" row title">
+    <div class="col-md-10">
     <h1>Browse through the questions</h1>
 
   </div>
+  <div class="col-md-2">
+    {{new-post savePost="savePost" }}
+  </div>
+  </div>
   <div class="row">
-    <div class="col-md-8 col-md-offset-2">
+    <div class="col-md-10 col-md-offset-1">
       <ul>
       {{#each model.posts as |post|}}
       {{post-tile post=post}}
@@ -15,9 +20,7 @@
       </ul>
 
     </div>
-    <div class="col-md-2">
-      {{new-post savePost="savePost" }}
-    </div>
+
 
   </div>
 

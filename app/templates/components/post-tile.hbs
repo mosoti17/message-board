@@ -1,3 +1,11 @@
-{{#link-to 'post' post.id}}<li>{{post.question}}   by {{post.author}}</li>
 
-{{/link-to}}
+<div class="post-tile">
+  {{#link-to 'post' post.id}}
+  <div class="quiz">
+    <h5>{{post.question}}</h5>
+  </div>
+  {{/link-to}}
+  <div class="by">
+    <p>Posted by {{post.author}}</p>
+  </div>
+</div>

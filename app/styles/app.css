@@ -1,12 +1,35 @@
 .answers{
-  color: rgb(33, 151, 195)
+  color: rgb(33, 151, 195);
 
 }
-body{
+/*body{
   background-image: url(http://www.projectation.com/wp-content/uploads/2012/11/question-mark.jpg);
 
   background-attachment: fixed;
-}
+}*/
 img{
   opacity: 0.5;
+}
+.post-tile{
+  box-shadow: 5px 5px 2px #888888;
+  height: 100%;
+  margin-bottom: 4%;
+  background-color: rgb(98, 145, 103);
+
+}
+.by{
+  text-align: right;
+  padding-right: 2%;
+
+}
+.quiz{
+  max-height: 20%;
+  padding-right: 1%;
+  padding-left: 1%;
+  padding-top: 1%;
+
+}
+h1{
+  text-align: center;
+  padding-bottom: 2%;
 }
