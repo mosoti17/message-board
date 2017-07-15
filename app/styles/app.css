@@ -2,14 +2,6 @@
   color: rgb(33, 151, 195);
 
 }
-/*body{
-  background-image: url(http://www.projectation.com/wp-content/uploads/2012/11/question-mark.jpg);
-
-  background-attachment: fixed;
-}*/
-img{
-  opacity: 0.5;
-}
 .post-tile{
   box-shadow: 5px 5px 2px #888888;
   height: 100%;
