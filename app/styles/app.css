@@ -8,6 +8,7 @@
   margin-bottom: 4%;
   background-color: rgb(98, 145, 103);
 
+
 }
 .by{
   text-align: right;
@@ -24,4 +25,15 @@
 h1{
   text-align: center;
   padding-bottom: 2%;
+}
+input {
+  width: 100%;
+
+}
+textarea{
+  resize: none;
+
+}
+body{
+  background-color: rgb(71, 94, 94);
 }

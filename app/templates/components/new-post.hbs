@@ -1,18 +1,19 @@
+
 {{#if addNewPost}}
 <h3>Question</h3>
 <div>
   <form>
-    <div class="form-group">
-      <label for="question">question</label>
-      {{input value=question id="question"}}
+    <div class="form-group " >
+      <label for="question">Question</label><br>
+      <textarea rows="7" cols="35">{{input value=question type="text" id="question" }}</textarea>
     </div>
     <div class="form-group">
-      <label for="notes">Additional notes</label>
-      {{input value=notes id="notes"}}
+      <label for="notes">Additional notes</label><br>
+      <textarea rows="2" cols="35">{{input value=notes id="notes"}}</textarea>
     </div>
     <div class="form-group">
-      <label for="author">author</label>
-      {{input value=author id="author"}}
+      <label for="author">author</label><br>
+      {{input value=author id="Author"}}
     </div>
     <button {{action 'savePost'}}>Post Question</button>
   </form>
@@ -21,3 +22,8 @@
 {{else}}
 <button {{action 'postFormShow'}}>Add Question</button>
 {{/if}}
+<style >
+
+
+
+</style>
