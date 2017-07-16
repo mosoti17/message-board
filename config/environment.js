@@ -21,9 +21,9 @@ module.exports = function(environment) {
     apiKey: "AIzaSyCt4o1cPqxNsUzJg6q-ymI_qt85I2e578I",
     authDomain: "message-board-9d755.firebaseapp.com",
     databaseURL: "https://message-board-9d755.firebaseio.com",
-
+    projectId: "message-board-9d755",
     storageBucket: "message-board-9d755.appspot.com",
-    
+    messagingSenderId: "368743247188"
   },
 
     APP: {
