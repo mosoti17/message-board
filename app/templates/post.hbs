@@ -1,13 +1,36 @@
 <div class="container">
-{{model.question}}
-{{post-details post=model destroyPost= "destroyPost"}}
-{{update-post post=model update="update"}}
+  <div class="row">
+    <div class="col-md-9">
+      <h2>{{model.question}}</h2>
+      {{post-details post=model destroyPost= "destroyPost"}}<br><br>
+    </div>
+    <div class="col-md-3">
+
+      <div class="pull-right">{{update-post post=model update="update"}}</div>
+    </div>
+
+  </div>
+
 <h3>Answers</h3>
 
-{{#each model.answers as |answer|}}
-<div class="answers">
-{{answer-tile answer=answer}}
+
+<div class="answers row">
+
+
+  <div class="col-md-9 answer">
+    <ul class="">
+    {{#each model.answers as |answer|}}
+      {{answer-tile answer=answer}}
+      {{/each}}
+    </ul>
+  </div>
+
+
+  <div class="col-md-3 pull-right" >
+    {{new-answer saveAnswer="saveAnswer" post=model}}
+  </div>
 </div>
-{{/each}}
-{{new-answer saveAnswer="saveAnswer" post=model}}
+
+
+
 </div>

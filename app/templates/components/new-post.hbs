@@ -1,7 +1,8 @@
 
 {{#if addNewPost}}
-<h3>Ask a Question</h3>
-<div>
+
+<div class="affix">
+  <h3>Ask a Question</h3>
   <form>
     <div class="form-group " >
       <label for="question">Question</label><br>
@@ -15,12 +16,12 @@
       <label for="author">Author</label><br>
       {{textarea rows="1" cols="35" class="form-control" value=author id="author"}}
     </div>
-    <button id="savepost"{{action 'savePost'}}>Post Question</button>
+    <button id="savepost" {{action 'savePost'}}>Post Question</button>
   </form>
 
 </div>
 {{else}}
-<button id="new-post"class="btn btn-secondary pull-right"{{action 'postFormShow'}}>Add Question</button>
+<button id="new-post"class="btn btn-secondary affix"{{action 'postFormShow'}}>Add Question</button>
 {{/if}}
 <style >
 

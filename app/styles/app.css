@@ -1,6 +1,10 @@
-.answers{
-  color: rgb(33, 151, 195);
+.solution{
 
+margin-bottom: 2%;
+
+background-color: yellow;
+padding-right: 20px;
+padding-left: 20px;
 }
 .post-tile{
   box-shadow: 5px 5px 2px #888888;
@@ -41,17 +45,21 @@ body{
   background-color: #ecedea;
 }
 /*.post{
-  background-color: #b2b7b4;
-  height: 100%
+  float: left;
 }*/
 #new-post{
 background-color: blue;
 height: 60px;
 width: 150px;
 color: white;
+margin-left: 10%;
+
 }
 #savepost{
   background-color: #a49aa8;
   height: 35px;
   padding: 5px;
+}
+.vote{
+  height: 100%;
 }
